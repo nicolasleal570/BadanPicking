@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link href="CCSSelba/SelbaWeb.css" rel="stylesheet">
+	<link href="jquery-ui-1.10.3/css/redmond/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script src="jquery-ui-1.10.3/js/jquery-1.9.1.js"></script>
+	<script src="jquery-ui-1.10.3/js/jquery-ui-1.10.3.custom.js"></script>
+	<script src="jquery-ui-1.10.3/dist/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<script src="jquery-ui-1.10.3/dist/jquery.maskMoney.js" type="text/javascript"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link type="image/x-icon" href="CCSSelba/images.jpeg" rel="icon" />
+	<script src="js/main.js"></script>
+	<title> Sistema de Consulta On-Line</title>
+
+
+</head>
+
+<body>
+	<div class="MainContainer">
+
+		<div id="wrapper">
+
+			<h1>Selba 2.0</h1>
+			<p>Sistema en Linea Badan</p>
+
+		</div>
+
+
+		<div id="dialog" title="Dialogo b�sico">
+
+		</div>
+
+		<table>
+			<tr>
+				<td>
+					Nombre del Producto: <input id="name_product" size="45%" onkeypress="LettersWithSpaceOnly(event)">
+				</td>
+				<td>
+					<button id="SearchOn" onClick="Results();"><span class="ui-icon ui-icon-search"></span></button>
+				</td>
+			</tr>
+		</table>
+
+		<br />
+
+		<div class="loader" id="loader">
+		</div>
+
+		<div class="ShContainer" id="ShContainer">
+		</div>
+	</div>
+</body>
+
+</html>

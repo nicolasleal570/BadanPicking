@@ -1,0 +1,12 @@
+Nro Entrega
+Código del destinatario
+Nombre del destinatario
+Facturador
+Sucursal
+Código De Producto
+Nombre de Producto
+Tipo de Unidad 
+Cantidad
+Lote
+Inventario
+Fecha del Picking
