@@ -1,1 +1,1 @@
-http://mail.fundacionbadan.org:1067/BadanPicking/
+http://mail.fundacionbadan.org:1067/BadanPicking\src

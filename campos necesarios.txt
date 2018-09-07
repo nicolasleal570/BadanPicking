@@ -1,4 +1,4 @@
-Nro Entrega
+﻿Nro Entrega
 Código del destinatario
 Nombre del destinatario
 Facturador
@@ -10,3 +10,5 @@ Cantidad
 Lote
 Inventario
 Fecha del Picking
+Hora
+Nro Factura

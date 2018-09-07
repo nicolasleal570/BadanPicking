@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link type="image/x-icon" href="./img/images.jpeg" rel="icon" />
+
+	<!-- ESTILOS CSS -->
+	<link href="./css/fontawesome-all.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/estilos.css">
+
+	<title>Entregas de Farmacia</title>
+</head>
+
+<body>
+	<div class="MainContainer">
+
+		<div id="wrapper">
+
+			<h1>Selba 2.0</h1>
+			<p>Sistema en Linea Badan</p>
+
+		</div>
+
+		<table>
+			<tr>
+				<td>
+					Nombre del Producto: <input id="name_product" onkeypress="LettersWithSpaceOnly(event)">
+				</td>
+				<td>
+					<button id="SearchOn" onClick="Results();"><span class="fas fa-search"></span></button>
+				</td>
+			</tr>
+		</table>
+
+		<div class="loader" id="loader">
+			<!-- ICONO DE CARGA -->
+		</div>
+
+		<div class="ShContainer" id="ShContainer">
+			<!-- RESULTADOS DE LA BUSQUEDA -->
+		</div>
+	</div>
+
+	<!-- JAVASCRIPT -->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
