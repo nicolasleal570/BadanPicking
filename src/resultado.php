@@ -26,7 +26,7 @@ if ($fce->GetStatus() == SAPRFC_OK) {
 
     echo "
     <div class='result'>
-        <table>
+        <table border='1px'>
             <tr>
                 <th>Producto</th>
                 <th>Precios</th>

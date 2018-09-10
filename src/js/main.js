@@ -106,3 +106,16 @@ function LettersWithSpaceOnly(evt) {
         );
     }
 }
+
+function Login() {
+    $.post(
+        'function/login-val.php',
+        {
+            user: document.getElementById('user').value,
+            password: document.getElementById('password').value
+        },
+        function(data) {
+            console.log('Ok!');
+        }
+    );
+}

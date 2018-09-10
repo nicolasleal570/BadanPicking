@@ -85,30 +85,39 @@ if ($fce->GetStatus() == SAPRFC_OK) {
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["VLNC"]);
         $vlcn = $num;
 
+        //imprime las unidades en puerto la cruz
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["PTLC"]);
         $ptlc = $num;
 
+        //imprime las unidades en barquisimeto
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["BQTO"]);
         $bqto = $num;
 
+        //imprime las unidades en maracay
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["MRCY"]);
         $mrcy = $num;
 
+        //imprime las unidades en maracaibo
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["MCBO"]);
         $mcbo = $num;
 
+        //imprime las unidades en san cristobal
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["SCTB"]);
         $sctb = $num;
 
+        //imprime las unidades en galerias avila
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["GLRA"]);
         $glra = $num;
 
+        //imprime las unidades en puerto ordaz
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["PTDZ"]);
         $ptdz = $num;
 
+        //imprime las unidades en punto fijo
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["PTFJ"]);
         $ptfj = $num;
 
+        //imprime las unidades en credicard
         list($num, $null) = split('[/.-]', $fce->ZPRECIO_STOCK->row["CRCA"]);
         $crca = $num;
 

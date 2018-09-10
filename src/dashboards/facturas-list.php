@@ -37,7 +37,7 @@ $num = odbc_num_rows($query); */
     <header class="banner">
       <!-- LOGO -->
       <div class="img">
-        <img src="../img/logo.png" alt="logo"/>
+        <img src="../img/logo.png" alt="Logo"/>
       </div>
 
       <div class="user">
@@ -49,7 +49,8 @@ $num = odbc_num_rows($query); */
       <!------------------------------------------------------>
       <!-- Cambiar el link cuando ya la pagina este online --->
       <!------------------------------------------------------>
-      <a href="http://localhost/facturador/dashboards/facturas-list.php" class="btn-actualizar fas fa-sync" id="btn-actualizar-fac">
+      <a href="http://mail.fundacionbadan.org:1067/BadanPicking/src/dashboards/facturas-list.php
+" class="btn-actualizar fas fa-sync" id="btn-actualizar-fac">
       </a>
 
     <div class="main">
